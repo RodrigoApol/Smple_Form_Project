@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #EEDCF3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: red;
+}
+.container-superior {
+    background-color: #B92CE4;
+    height: 150px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #FBF0FF;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.cadastro-container {
+    background-color: #FFF;
+    max-width: 1100px;
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    margin: auto;
+    box-shadow: 4px 4px 8px #270E2F;
+}
+
+.cadastro-container 
+.texto-superior {
+    text-align: center;
+    padding-top: 8px;
+    width: auto;
+    border-bottom: 1px solid #EEDCF3;
+    color: #B92CE4;
+}
+
+.cadastro-container h1 {
+    padding-left: 20px;
+}
+
+.cadastro-container p {
+    padding-left: 20px;
+}
+
+.formulario {
+    padding-left: 20px;
+}
+
+.formulario
+.inputs input{
+    border: none;
+    border-bottom: 2px solid #EEDCF3;
+    width: 400px;
+}
+
+textarea {
+    border: 2px solid #EEDCF3;
+    width: 400px;
+    height: 50px;
+}
+.radio-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.radio input{
+    margin-left: 0;
+}
+
+.opcionais-container {
+    position: relative;
+    width: 500px;
+}
+
+.opcoes01 {
+    width: 250px;
+    position: absolute;
+    right: 0;
+}
+
+.opcoes02 {
+    width: 250px;
+}
+
+.fotos {
+    border-bottom: 2px solid #EEDCF3;
+    padding-bottom: 12px;
+    width: 400px;
+}
+
+.botao 
+input {
+    background-color: #B92CE4;
+    padding: 20px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #FBF0FF;
+    box-shadow: 2px 2px 4px #270E2F;
+    border: none;
+    border-radius: 6px;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trabalho 03</title>
+</head>
+<body>
+    <div class="container-superior">
+        <h2>Cadastre o seu veículo na nossa loja!</h2>
+    </div>
+    <div class="cadastro-container">
+        <div class="texto-superior">
+                <h3>Formulário</h3>
+        </div>
+        <h1>Venda seu veículo conosco!</h1>
+        <p>Descreva as caracteristicas e escolha os opcionais que seu veículo possui</p>
+        <br>
+        <!--Formulário-->
+        <form class="formulario">
+            <div class="inputs">
+                <label>Título do anúncio <span>*</span></label><br><br>
+                <input type="text" placeholder="Adicione o título do anúncio:">
+            </div>
+            <br>
+            <br>
+            
+            <!--Preço-->
+            <div class="inputs">
+                <label for="preco">Preço do anúncio <span>*</span></label><br><br>
+                <input type="number" name="preco" placeholder="Adicione o preço do carro:">
+            </div>  
+            <!--Preço-->
+            <br>
+            <br>
+
+            <!--Descrição-->
+            <div class="inputs">
+                <label for="desc">Descrição <span>*</span></label><br><br>
+                <textarea placeholder="Coloque os detalhes de seu veículo"></textarea>
+            </div>
+            <!--Descrição-->
+            <br>
+            <br>
+
+            <!--Marca-->
+            <div class="inputs">
+                <label for="marca">Marca do veículo <span>*</span></label><br><br>
+                <input type="text" name="marca" placeholder="Adicione a marca do veículo:">
+            </div>
+            <!--Marca-->
+            <br>
+            <br>
+
+            <!--Modelo-->
+            <div class="inputs">
+                <label for="modelo">Modelo do veículo <span>*</span></label><br><br>
+                <input type="text" name="modelo" placeholder="Adicione o modelo do veículo:">
+            </div>
+            <!--Modelo-->
+            <br>
+            <br>
+            
+            <!--Kilometragem-->
+            <div class="inputs">
+                <label for="kilometragem">Kilometragem do veículo <span>*</span></label><br><br>
+                <input type="number" name="kilometragem" placeholder="Kilometragem do veículo:">
+            </div>
+            <!--Kilometragem-->
+            <br>
+            <br>
+
+            <!--Data de compra-->
+            <div class="inputs">
+                <label for="data-compra">Data de compra do veículo <span>*</span></label><br><br>
+                <input type="date" name="data-compra">
+            </div>
+            <!--Data de compra-->
+            <br>
+            <br>
+            
+            <!--Tipo de câmbio-->
+            <label for="tipo-cambio">Tipo de câmbio <span>*</span></label><br><br>
+            <div class="radio">
+                <div class="radio-item">
+                    <input type="radio" name="tipo-cambio" value="manual">
+                    <label for="manual">Manual</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="tipo-cambio" value="automatico">
+                    <label for="automatico">Automatico</label>
+                </div>
+            </div>
+            <!--Tipo de câmbio-->
+            <br>
+            <br>
+
+            <!--Opcionais-->
+            <label for="opcionais">Opcionais</label><br><br>
+            <div class="opcionais-container">
+                <!--Grupo de opção 01-->
+                <div class="opcoes01">
+                    <div class="opcao">
+                        <input type="checkbox" name="opcionais[]" value="airbag">
+                        <label for="airbag">Airbag</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" name="opcionais[]" value="alarme">
+                        <label for="alarme">Alarme</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" name="opcionais[]" value="ar-condicioando">
+                        <label for="ar-condicioando">Ar condicionado</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" name="opcionais[]" value="camera-re">
+                        <label for="camera-re">Câmera de ré</label>
+                    </div>
+                </div>
+                <!--Grupo de opção 01-->
+
+                <!--Grupo de opção 02-->
+                <div class="opcoes02">
+                    <div class="opcao">
+                        <input type="checkbox" name="opcionais[]" value="ass-pista">
+                        <label for="ass-pista">Assistente de Pista</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" name="opcionais[]" value="keyless">
+                        <label for="keyless">Partida Keyless</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" name="opcionais[]" value="integracao-celular">
+                        <label for="integracao-celular">Integração com o Celular</label>
+                    </div>
+                    <div class="opcao">
+                        <input type="checkbox" name="opcionais[]" value="banco-couro">
+                        <label for="banco-couro">Banco de Couro</label>
+                    </div>
+                </div>
+                <!--Grupo de opção 02-->
+            </div>
+            <!--Opcionais-->
+            <br>
+            <br>
+
+            <!--Fotos-->
+            <div class="fotos">
+                <label for="fotos-carro">Fotos do carro <span>*</span></label><br><br>
+                <input type="file" name="fotos-carro">
+            </div>
+            <!--Fotos-->
+            
+            <!--Botão-->
+            <div class="botao">
+                <input type="submit" value="Enviar">
+            </div>
+            <!--Botão-->
+        </form>
+        <!--Formulário-->
+    </div>
+</body>
+</html>
